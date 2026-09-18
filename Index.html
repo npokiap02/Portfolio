@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nathaniel Koitz Pokiap | IT Specialist & System Administrator</title>
+    <style>
+        :root {
+            --bg-color: #0f172a;
+            --card-bg: #1e293b;
+            --text-main: #f8fafc;
+            --text-muted: #94a3b8;
+            --accent: #38bdf8;
+            --accent-hover: #0284c7;
+            --border: #334155;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            line-height: 1.6;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        header {
+            text-align: center;
+            padding: 40px 20px;
+            background: var(--card-bg);
+            border-radius: 12px;
+            border: 1px solid var(--border);
+            margin-bottom: 30px;
+        }
+
+        header h1 {
+            font-size: 2.2rem;
+            color: var(--text-main);
+            margin-bottom: 5px;
+        }
+
+        header p.title {
+            font-size: 1.1rem;
+            color: var(--accent);
+            font-weight: 600;
+            margin-bottom: 15px;
+        }
+
+        header p.location {
+            color: var(--text-muted);
+            font-size: 0.95rem;
+            margin-bottom: 20px;
+        }
+
+        .contact-links {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            display: inline-block;
+            background: var(--accent);
+            color: #0f172a;
+            padding: 8px 16px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: background 0.2s;
+        }
+
+        .btn:hover {
+            background: var(--accent-hover);
+            color: #fff;
+        }
+
+        section {
+            background: var(--card-bg);
+            padding: 30px;
+            border-radius: 12px;
+            border: 1px solid var(--border);
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            font-size: 1.4rem;
+            color: var(--accent);
+            border-bottom: 2px solid var(--border);
+            padding-bottom: 8px;
+            margin-bottom: 20px;
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+        }
+
+        .skill-card {
+            background: var(--bg-color);
+            padding: 15px;
+            border-radius: 8px;
+            border: 1px solid var(--border);
+        }
+
+        .skill-card h3 {
+            font-size: 1rem;
+            color: var(--text-main);
+            margin-bottom: 8px;
+        }
+
+        .skill-card ul {
+            list-style: none;
+            font-size: 0.88rem;
+            color: var(--text-muted);
+        }
+
+        .skill-card li {
+            margin-bottom: 4px;
+        }
+
+        .timeline-item {
+            border-left: 2px solid var(--accent);
+            padding-left: 20px;
+            margin-bottom: 25px;
+            position: relative;
+        }
+
+        .timeline-item:last-child {
+            margin-bottom: 0;
+        }
+
+        .timeline-title {
+            font-weight: bold;
+            font-size: 1.1rem;
+        }
+
+        .timeline-meta {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            margin-bottom: 10px;
+        }
+
+        .timeline-bullet {
+            list-style-type: disc;
+            margin-left: 20px;
+            color: var(--text-muted);
+            font-size: 0.95rem;
+        }
+
+        .timeline-bullet li {
+            margin-bottom: 5px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: var(--text-muted);
+            font-size: 0.85rem;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <header>
+        <h1>Nathaniel Koitz Pokiap</h1>
+        <p class="title">IT Support Specialist | System Administrator | Network Technician</p>
+        <p class="location">Port Moresby, Papua New Guinea</p>
+        <div class="contact-links">
+            <a href="mailto:npokiap02@outlook.com" class="btn">Email Me</a>
+            <a href="tel:+67581923043" class="btn">+675 8192 3043</a>
+        </div>
+    </header>
+
+    <section>
+        <h2>Professional Summary</h2>
+        <p>Dedicated IT professional with a Diploma in Information Technology (Advanced Network & System Administration)[cite: 1, 2]. Experienced in desktop hardware repair, system administration, cPanel/WHM server migration, enterprise DNS management, and Microsoft cloud environments (M365/Azure AD)[cite: 1, 2]. Proven track record in troubleshooting complex technical issues, maintaining asset inventories, and delivering responsive client support[cite: 1, 2].</p>
+    </section>
+
+    <section>
+        <h2>Core Technical Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <h3>Hardware & Deskside</h3>
+                <ul>
+                    <li>PC & Laptop Repair</li>
+                    <li>OS Installation (Win/macOS)</li>
+                    <li>Peripheral & Printer Setup</li>
+                    <li>Virus Removal & Recovery</li>
+                </ul>
+            </div>
+            <div class="skill-card">
+                <h3>Networking</h3>
+                <ul>
+                    <li>TCP/IP, DNS, DHCP</li>
+                    <li>Router & Switch Config</li>
+                    <li>Cable Crimping & Testing</li>
+                    <li>Wi-Fi Troubleshooting</li>
+                </ul>
+            </div>
+            <div class="skill-card">
+                <h3>Systems & Servers</h3>
+                <ul>
+                    <li>Linux OS (Ubuntu, Debian, RHEL)</li>
+                    <li>Windows Server & Active Directory</li>
+                    <li>cPanel / WHM Administration</li>
+                    <li>Virtualization (VMware, Hyper-V)</li>
+                </ul>
+            </div>
+            <div class="skill-card">
+                <h3>Cloud & Email</h3>
+                <ul>
+                    <li>Microsoft 365 & Entra ID</li>
+                    <li>Enterprise DNS Records (MX, SPF, TXT)</li>
+                    <li>DMARC & DKIM Authentication</li>
+                    <li>MXToolbox Diagnostics</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Work Experience</h2>
+        
+        <div class="timeline-item">
+            <div class="timeline-title">ICT Support Specialist / System Administrator</div>
+            <div class="timeline-meta">NextGen Technology Limited | Port Moresby | 2026 – Present</div>
+            <ul class="timeline-bullet">
+                <li>Provide direct and remote technical support to corporate clients, resolving hardware, software, and connectivity issues[cite: 2].</li>
+                <li>Execute backend server configurations, Linux OS maintenance, and cPanel/WHM account migrations[cite: 1, 2].</li>
+                <li>Manage enterprise DNS records (A, CNAME, MX, TXT) to maintain high web service reliability[cite: 1, 2].</li>
+                <li>Administer Microsoft 365 and Azure Active Directory for client user management and security[cite: 1, 2].</li>
+            </ul>
+        </div>
+
+        <div class="timeline-item">
+            <div class="timeline-title">PC & Network Support Intern</div>
+            <div class="timeline-meta">IEA College of TAFE | Port Moresby | 2025 – 2026</div>
+            <ul class="timeline-bullet">
+                <li>Performed hardware diagnostics, equipment maintenance, and network repairs across campus computer labs[cite: 1, 2].</li>
+                <li>Managed helpdesk tickets to resolve staff and student technical queries promptly[cite: 1, 2].</li>
+                <li>Maintained complete asset management logs tracking hardware inventory and equipment stock[cite: 1, 2].</li>
+            </ul>
+        </div>
+    </section>
+
+    <section>
+        <h2>Education & Qualifications</h2>
+        <div class="timeline-item">
+            <div class="timeline-title">Diploma in Information Technology</div>
+            <div class="timeline-meta">Advanced Network and System Administration | IEA College of TAFE (Graduated May 2026)</div>
+        </div>
+        <div class="timeline-item">
+            <div class="timeline-title">Certificate in Information Technology</div>
+            <div class="timeline-meta">Computer Networks & System Support | IEA College of TAFE (2024)</div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Nathaniel Koitz Pokiap. Hosted on GitHub Pages.</p>
+    </footer>
+
+</div>
+
+</body>
+</html>
